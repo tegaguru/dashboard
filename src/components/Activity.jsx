@@ -58,11 +58,11 @@ function Activity (){
                     </div>
                     <div className="activity__panel">
                         <ul>
-                            <li><a href=""><p>Yesterday</p><img src={user} alt="" /><span>You shared edit access to <span>Miko</span></span></a></li>
-                            <li><a href=""><p>Yesterday</p><img src={user} alt="" /><span>You shared edit access to <span>Ashley</span></span></a></li>
-                            <li><a href=""><p>April 1, 2022</p><img src={user} alt="" /><span>You changed Maszeh.glyph<span><img src={readme} className="icon" alt="" /></span></span></a></li>
-                            <li><a href=""><p>Feb 21, 2022</p><img src={user} alt="" /><span>You added tag<span>Work</span><span>+2s</span></span></a></li>
-                            <li><a href=""><p>Feb 16, 2022</p><img src={user} alt="" /><span>You changed edit to view acces to<span>Nolan</span></span></a></li>
+                            <li><a href=""><p>Yesterday</p><img className="user" src={user} alt="" /><span>You shared edit access to <span className="activity-username">Miko</span></span></a></li>
+                            <li><a href=""><p>Yesterday</p><img src={user} className="user" alt="" /><span>You shared edit access to <span className='activity-username'>Ashley</span></span></a></li>
+                            <li><a href=""><p>April 1, 2022</p><img src={user} className="user" alt="" /><span>You changed Maszeh.glyph<span><img src={readme} className="icon" alt="" /></span></span></a></li>
+                            <li><a href=""><p>Feb 21, 2022</p><img src={user} className="user" alt="" /><p>You added tag</p><span className="activity--tag">Work</span><span className="activity--tag">+2s</span></a></li>
+                            <li><a href=""><p>Feb 16, 2022</p><img src={user} className="user" alt="" /><span>You changed edit to view acces to<span > Nolan</span></span></a></li>
 
                         </ul>
                     </div>

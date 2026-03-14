@@ -7,6 +7,8 @@
 body{
     font-size: 16px;
     overflow-x: hidden;
+    background-image: linear-gradient(to bottom, 
+    #d1d1d1 50%, white 50%);
 }
 
 .icon{
@@ -90,11 +92,12 @@ body{
 }
 
 main .quickAccess__container{
-    border: 1px solid black;
+    border: 1px solid white;
     padding-bottom:  2rem;
     padding-top: 1rem;
     padding-left: 2rem;
     border-radius: 10px;
+    background-color: white;
 }
 
 .main .quickAccess--list{
@@ -120,9 +123,11 @@ padding: 1rem 0 .5rem 0;
 }
 .quickAccess__secondary{
     margin-top: 4rem;
-    border: 1px solid black;
+    border: .2px solid black;
     border-radius: .6rem;
     padding: 1rem 1rem;
+    height: 68.5%;
+    background-color: white;
 }
 .quickAccess__secondary .heading--top{
     display: flex;
@@ -228,10 +233,12 @@ padding: 1rem 0 .5rem 0;
 /*sidebar*/
 
 .sidebar__parent{
-    border: 1px solid black;
+    border: 0.2px solid black;
     margin-right: 2rem;
     margin-left: 2rem;
     padding: 2rem 1rem;
+    background: white;
+    border-radius: 10px;
 }
 
 .sidebar__parent .sidebar__parent--container{
@@ -262,12 +269,31 @@ padding: 1rem 0 .5rem 0;
     list-style-type: none;
     margin-bottom: 2rem;
 }
+.sidebar__parent .sidebar__parent--container .sidebar__bottom--content li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 
+}
+.sidebar__parent .sidebar__parent--container .sidebar__bottom--content li a img{
+    margin-right: 1rem;
+}
+.sidebar__parent .sidebar__parent--container .sidebar__bottom--content li{
+    margin-bottom: 1rem;
+}
+
+.sidebar__parent .sidebar__parent--container .sidebar__bottom--content li:nth-child(3){
+    border: 1px solid black;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
 /*Activity SECTION*/
 .activity__parent{
     border: 1px solid black;
     margin-left: 2rem;
     padding: 2rem 1rem;
+    background-color: white;
+    margin-right: 1rem;
 }
 .activity__parent .activity__parent--container .source__heading{
 display: flex;
@@ -349,4 +375,56 @@ justify-content: space-between;
 }
 .activity__parent .activity__parent--container .sharing__contents .sharing__profile ul li:nth-child(5){
     transform: translateX(-26px);
+}
+
+.activity__parent .activity__parent--container .sharing__contents .activity__navigation ul{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 1px solid  black;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__navigation ul li{
+    padding-bottom: 1rem;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__navigation ul li:first-child{
+    border-bottom: 2px solid blue;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__navigation ul li a{
+    text-decoration: none;
+}
+
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul li .user{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul{
+    padding-left: 1rem;
+    border-left: 1px solid black;
+    margin-top: 2rem;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul li a{
+    text-decoration: none;
+}
+
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul li::marker{
+    color: blue;
+    transform: translateX(-3px);
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul li{
+    margin-bottom: 1rem;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul li a p{
+    margin-bottom: 1rem;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul li a .activity-username{
+    display: inline-block;
+    transform: translateX(36px);
+    color: blue;
+}
+.activity__parent .activity__parent--container .sharing__contents .activity__panel ul li a .activity--tag{
+    margin-right: 2rem;
+    background-color: #8e96fa;
+    padding: .3rem;
 }

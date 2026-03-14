@@ -22,7 +22,7 @@ function Sidebar (){
                     <ul className="sidebar__bottom--content">
                         <li><a href=""><img src={setting} className="icon" alt="" />Settings</a></li> 
                         <li><a href=""><img src={recycle} className="icon" alt="" />Deleted Files</a></li> 
-                        <li><a href=""><img src={storage} className="icon" alt="" />Storage</a></li> 
+                        <li><a href=""><img src={storage} className="icon" alt="" />Storage </a><progress id="file-progress" value="16" max="100">42GB used from 256GB</progress><p>42GB used from 256GB</p></li> 
                     </ul> 
                 </div>
             </div>
