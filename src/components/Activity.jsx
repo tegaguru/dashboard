@@ -18,7 +18,7 @@ function Activity (){
                 <div className="source__contents">
                     <h3>Source</h3>
                     <div className="source__details">
-                        <p className='file-size'>1.2 MB •</p>
+                        <p className='file-size'>1.2 MB       •</p>
                         <p className='time-duration'>Yesterday •</p>
                         <p>1 item</p>
                     </div>
