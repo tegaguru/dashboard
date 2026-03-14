@@ -89,14 +89,22 @@ body{
     justify-content: flex-end;
 }
 
+main .quickAccess__container{
+    border: 1px solid black;
+    padding-bottom:  2rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    border-radius: 10px;
+}
+
 .main .quickAccess--list{
     display: flex;
 
 }
 .main .quickAccess--list .quickAccess--list-item{
     border:  1px solid black;
-    padding: 2rem 2rem 2rem 2rem;
-    margin-right: 2rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin-right: 1rem;
     border-radius: 1rem;
 }
 .main .quickAccess--list .quickAccess--list-item .heading{
@@ -152,7 +160,7 @@ padding: 1rem 0 .5rem 0;
     font-size: 1.3rem;
 }
 .quickAccess__secondary .heading--top li:nth-child(3){
-    margin-right: 20rem;
+    margin-right: 15rem;
 }
 .quickAccess__secondary .heading--top li:nth-child(3) a{
     color: black;
@@ -217,3 +225,43 @@ padding: 1rem 0 .5rem 0;
 
 
 /*sidebar*/
+
+.sidebar__parent{
+    border: 1px solid black;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 2rem 1rem;
+}
+
+.sidebar__parent .sidebar__parent--container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.sidebar__parent .sidebar__parent--container .sidebar__top--content{
+    list-style-type: none;
+
+}
+.sidebar__parent .sidebar__parent--container .sidebar__bottom--content{
+    list-style: none;
+}
+
+.sidebar__parent .sidebar__parent--container .sidebar__top--content li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sidebar__parent .sidebar__parent--container .sidebar__top--content li a img{
+    margin-right: .5rem;
+}
+
+.sidebar__parent .sidebar__parent--container .sidebar__top--content li{
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+/*Activity SECTION*/
+
+
