@@ -13,7 +13,7 @@ function Sidebar (){
             <div className="sidebar__parent">
                 <div className="sidebar__parent--container">
                     <ul className="sidebar__top--content">
-                        <li><a href=""><img src={folder} className="icon" alt="" /> <span>All Files <span> {">"}</span></span> </a></li>
+                        <li><a href=""><img src={folder} className="icon" alt="" /> <span>All Files <span style={{display: "inline-block", transform: "rotate(90deg) " }}> {">"}</span></span> </a></li>
                         <li><a href=""><img src={recent} className="icon" alt="" /> <span>Recent</span> </a></li>
                         <li><a href=""><img src={favorites} className="icon" alt="" /> <span>Favorites</span> </a></li> 
                         <li><a href=""><img src={share} className="icon" alt="" /> <span>Shared</span> </a></li> 
